@@ -1,5 +1,17 @@
 # LearningDevOps
-Coding Exercises 
+Set up infrastracture using Terraform in Azure
+Added necessary files to support the infrastracture
 
-Deeper look in to CI/CD
-Azure, Pipelines...
+Added:
+
+backend for terraform
+
+Ip, subnet and vnet
+
+Terraform providers
+
+Resource group
+
+Storage account
+
+Virtual machine 

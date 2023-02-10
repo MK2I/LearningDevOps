@@ -3,8 +3,8 @@ resource "azurerm_linux_virtual_machine" "vm" {
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
   size                = "Standard_DS1_v2"
-  admin_username      = "trainer"
-  admin_password      = "Terminator2001!"
+  admin_username      = "******"
+  admin_password      = "*****************"
   disable_password_authentication = "false"
   network_interface_ids = [ "${azurerm_network_interface.nic.id}" ]
 
